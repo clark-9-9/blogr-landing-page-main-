@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Blogr]</title>
+  <link rel="stylesheet" href="./blogr.css">
+  <script src="./blogr.js" defer></script>
+</head>
+
+<body>
+
+    <div class="header-background">
+      <img src="./images/bg-pattern-intro-mobile.svg">
+    </div>
+
+    <section class="flex-header">
+            <p class="blogr">
+              Blogr 
+            </p>
+
+            <div class="icons">
+              <ion-icon name="menu-outline"></ion-icon>
+              <ion-icon name="close-outline"></ion-icon>
+            </div>
+    </section>
+
+    <!-- ------------ -->
+
+    <section class="flex-header-min-width-800px">
+      <article>
+            <p class="blogr2">
+              Blogr 
+            </p>
+
+           <div class="links-min-width-800px">
+
+              <div ProductsOfProduct href="#">
+                <a data-Nav-Links = 'Links1'>
+                  Product
+                  <ion-icon name="chevron-down-outline" data-arrow="ARROW-1"></ion-icon>
+                </a>
+
+                  <div class="chilid-of-links" child-of-links = 'child1'>
+                      <a href="#">Overview</a>
+                      <a href="#">Pricing</a>
+                      <a href="#">Marketplace</a>
+                      <a href="#">Features</a>
+                      <a href="#">Integration</a>
+                  </div>
+              </div>
+
+              <div ProductsOfCompany href="#">
+                <a data-Nav-Links = 'Links2'>
+                  Company
+                  <ion-icon name="chevron-down-outline" data-arrow="ARROW-2"></ion-icon>
+                </a>
+
+                  <div class="chilid-of-links" child-of-links = 'child2'>
+                    <a href="#">About</a>
+                    <a href="#">Team</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Careers</a>
+                  </div>
+              </div>
+
+              <div ProductsOfConnect href="#">
+                <a data-Nav-Links = 'Links3'>
+                  Connect
+                  <ion-icon name="chevron-down-outline" data-arrow="ARROW-3"></ion-icon>
+                </a>
+
+                  <div class="chilid-of-links" child-of-links = 'child3'>
+                    <a href="#">Contact</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">LinkedIn</a>
+                    </div>
+              </div>
+
+           </div>
+
+        </div>
+
+      </article>
+
+      <article class="sign-login-min-width-800px">
+          <span>Login</span>
+          <span>Sign Up</span>
+      </article>
+
+</section>
+
+    <!-- ----------------- -->
+    
+    <section class="navbar" data-navbar>
+      <div class="links">
+          <p data-links = 'p1'>
+              Product <ion-icon name="chevron-down-outline" data-arrow= 'arrow1'></ion-icon>
+          </p>
+
+          <p data-links = 'p2'>
+              Company <ion-icon name="chevron-down-outline" data-arrow= 'arrow2'></ion-icon>
+          </p>
+
+          <p data-links = 'p3'>
+              Connect <ion-icon name="chevron-down-outline" data-arrow= 'arrow3'></ion-icon>
+          </p>
+      </div>
+
+      <div class="dropdowns">
+
+          <div class="uni-dropdown product-dropdown" data-product>
+                <p>Overview</p>
+                <p>Pricing</p>
+                <p>Marketplace</p>
+                <p>Features</p>
+                <p>Integrations</p>
+          </div>
+          
+          <div class="uni-dropdown company-dropdown" data-company>
+                <p>About</p>
+                <p>Team</p>
+                <p>Blog</p>
+                <p>Careers</p>
+          </div>
+          
+          <div class="uni-dropdown connect-dropdown" data-connect>
+                <p>Contact</p>
+                <p>Newsletter</p>
+                <p>LinkedIn</p>
+          </div>
+          
+        </div>
+
+      <hr hr-line>
+
+      <div class="sign-login">
+          <span>Login</span>
+          <span>Sign Up</span>
+      </div>
+
+    </section>
+    
+    <!-- ----------------- -->
+
+    <section class="headline">
+        <p>
+            A modern publishing platform
+        </p>
+
+        <p>
+            Grow your audience and build your online brand
+        </p>
+
+        <article>
+            <button>Start for Free</button>
+            <button>Learn More</button>
+        </article>
+
+    </section>
+
+    <!-- --------------- -->
+
+    <section class="center-grid">
+        <p data-design>
+             Designed for the future
+        </p>
+        
+        <div data-div2>
+            <img ChangeImge = 'img1' src="./images/illustration-editor-mobile.svg">
+        </div>
+
+        <article class="script-article">
+
+          <div class="parent-script">
+              <p class="header-script">Introducing an extensible editor</p>
+
+              <p class="reading-script">
+                Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+                The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+                videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+                change the looks of a blog.
+              </p>
+          </div>
+
+          <div class="parent-script">
+              <p class="header-script">Robust content management</p>
+
+              <p class="reading-script">
+                Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+                by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+              </p>
+          </div>
+
+        </article>
+    </section>
+    
+    <div class="background-of-phone">
+        <img src="./images/bg-pattern-circles.svg">
+    </div>
+
+
+    <!-- ------------------- -->
+
+    <section class="phone-scripts">
+        <img src="./images/illustration-phones.svg" phone-img>
+
+        <div class="scripts">
+            <p>State of the Art Infrastructure</p>
+
+            <p>
+                With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+                This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
+            </p>
+        </div>
+
+    </section> 
+
+  <!-- ------------------- -->
+
+    <section class="above-bottom-grid">
+        <div laptop-image>
+            <img ChangeImage = "image2" src="./images/illustration-laptop-mobile.svg" >
+        </div>  
+
+        <article>
+          <div class="bottom-parent">
+              <p>Free, open, simple</p>
+
+              <p>
+                Blogr is a free and open source application backed by a 
+                large community of helpful developers. It supports 
+                features such as code syntax highlighting, RSS feeds, 
+                social media integration, third-party commenting tools, 
+                and works seamlessly with Google Analytics. The architecture 
+                is clean and is relatively easy to learn.
+              </p>
+
+            </div>
+
+          <div class="bottom-parent">
+            <p>Powerful tooling</p>
+
+            <p>
+              Batteries included. We built a simple and straightforward CLI 
+              tool that makes customization and deployment a breeze, but
+              capable of producing even the most complicated sites.          
+            </p>
+          </div>
+        </article>
+    </section>
+
+    <section class="bottom-flex-parent">
+      <article class="bottom-flex">
+        <p id="blogr">Blogr</p>
+
+        <article class="product-article">
+            <p id="header-headline-footer">Product</p>
+
+            <div>
+              <p>Overview</p>
+              <p>Pricing</p>
+              <p>Marketplace</p>
+              <p>Features</p>
+              <p>Integrations</p>
+            </div>
+        </article>
+
+        <article class="company-article">
+            <p id="header-headline-footer">Product</p>
+
+            <div>
+              <p>About</p>
+              <p>Team</p>
+              <p>Blog</p>
+              <p>Careers</p>
+            </div>
+        </article>
+
+        <article class="connect-article">
+            <p id="header-headline-footer">Product</p>
+
+            <div>
+              <p>Contact</p>
+              <p>Newsletter</p>
+              <p>LinkedIn</p>
+            </div>
+        </article>
+      </article>
+    </section>
+
+
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+</body>
+</html>
